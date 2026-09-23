@@ -46,8 +46,10 @@ export default function App() {
     <>
       <header className="hero">
         <div className="hero__inner">
-          <p className="hero__eyebrow">Yale School of Management</p>
-          <h1>Course Explorer</h1>
+          <h1 className="hero__title">
+            <span className="hero__brand">Yale SOM</span>
+            <span className="hero__tagline">Course Explorer</span>
+          </h1>
           <p className="hero__sub">Browse the full course list, or ask the assistant in the corner.</p>
           <input
             className="search"
