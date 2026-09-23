@@ -1,6 +1,22 @@
+# Secrets (keep the template)
 .env
+.env.*
+!.env.example
+
+# Python
 .venv/
 __pycache__/
+*.py[cod]
+
+# Node
 node_modules/
+
+# Archives
 *.zip
-*.db
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Note: data/yale_som.db is intentionally tracked (small, needed to run the app)
